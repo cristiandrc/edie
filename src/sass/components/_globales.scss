@@ -1,0 +1,64 @@
+$fuente1: 'Poppins', sans-serif;
+$fuente2:'Heebo', sans-serif;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $fuente1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+main {
+  padding: 40px 10px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-left: 30px;
+    width: 325px;
+  }
+}
+
+img {
+  width: 200px;
+}
+
+
+@mixin burger_icon {
+  position: absolute;
+  width: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  right: 1px;
+}
+
+
+@mixin form {
+  margin: 30px 0 30px 30px;
+  width: 291px;
+  input {
+      width: 291px;
+      height: 47px;
+      margin-top: 5px;
+      margin-right: -80px;
+      padding:0 80px 0 20px;
+      border-radius: 10px;
+      border: none;
+      background-color: #F2F2F2;
+  }
+  button {
+      height: 39px;
+      width: 71px;
+      border: none;
+      border-radius: 10px;
+      background-color: #2d9cdb;
+  }
+}
+

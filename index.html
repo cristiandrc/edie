@@ -5,135 +5,152 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/sass/style.css">
   <title>Edie</title>
 </head>
 <body>
-  <!-- <button id="btn_menu" class="burger__menu">
-    <span class="burger__icon-top "></span>
-    <span class="burger__icon-meddle "></span>
-    <span class="burger__icon-bottom "></span>
-  </button> -->
-  <header>
-    <span>Edie</span>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Our Works</li>
-        <li>Clients</li>
-        <li>Contact </li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="header-container">
+      <span class="header-logo">Edie</span>
+      <nav class="header-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Our Works</a></li>
+          <li><a href="">Clients</a></li>
+          <li><a href="">Contact </a></li>
+        </ul>
+      </nav>
+      <button id="btn_menu" class="burger">
+        <span class="burger__icon-top "></span>
+        <span class="burger__icon-meddle "></span>
+        <span class="burger__icon-bottom "></span>
+      </button>
+    </div>
   </header>
 
   <main>
-    <section class="main-home">
-      <p>Unhappy with your website?</p>
-      <h1>We create beautiful and fast web services</h1>
-      <img src="./src/images/heroImage.jpg" alt="">
-      <h2>Story, emotion and purpose</h2>
-      <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+    <section id="home" class="home">
+      <p class="home-question">Unhappy with your website?</p>
+      <h1 class="home-title">We create beautiful and fast web services</h1>
+      <img class="home-img" src="./src/images/heroImage.jpg" alt="">
+      <h2 class="home-subtitle">Story, emotion and purpose</h2>
+      <p class="home-parrafo">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
       
-      <form action="">
+      <form class="home-form" action="">
         <label for="email">Want us to contact you?</label><br>
-        <input id="email" type="email"><button>JOIN</button>
+        <input id="email" type="email" placeholder="Email">
+        <button>JOIN</button>
       </form>
     </section>
-      <h2>We offer high demand services  </h2>
+    
+    <h2>We offer high demand services  </h2>
+    <section class="services">
 
-      <article>
-        <img src="./src/images/UI_UX.JPG" alt="">
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>Get started</button>
+      <article class="services-design">
+        <img class="services-design-img" src="./src/images/UI_UX.JPG" alt="">
+        <h3 class="services-design-title">UI/UX Design</h3>
+        <p class="services-design-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button class="services-design-button">Get started</button>
       </article>
 
-      <article>
-        <img src="./src/images/Front_end.JPG" alt="">
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>Get started</button>
+      <article class="services-frontend">
+        <img class="services-frontend-img" src="./src/images/Front_end.JPG" alt="">
+        <h3 class="services-frontend-title">UI/UX Design</h3>
+        <p class="services-frontend-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button class="services-frontend-button">Get started</button>
       </article>
 
-      <article>
-        <img src="./src/images/Back_end.JPG" alt="">
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>Get started</button>
+      <article  class="services-backend">
+        <img class="services-backend-img" src="./src/images/Back_end.JPG" alt="">
+        <h3 class="services-backend-title">UI/UX Design</h3>
+        <p class="services-backend-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button class="services-backend-button">Get started</button>
       </article>
-    <section>
 
     </section>
-    <section>
-      <h2>Good design means good business</h2>
 
-      <article>
-        <img src="./src/images/smarthome.jpg" alt="">
-        <p>Full stack application</p>
-        <h3>Smart home dashboard</h3>
+    <h2 class="business-title">Good design means good business</h2>
+    <section class="business">
+
+      <article class="business-home">
+        <img class="business-home-img" src="./src/images/smarthome.jpg" alt="">
+        <p class="business-home-parrafo">Full stack application</p>
+        <h3 class="business-home-title">Smart home dashboard</h3>
       </article>
 
-      <article>
-        <img src="./src/images/onboard.png" alt="">
-        <p>UX/UI design</p>
-        <h3>Onboard application</h3>
+      <article class="business-onboard">
+        <img class="business-onboard-img" src="./src/images/onboard.png" alt="">
+        <p class="business-onboard-parrafo">UX/UI design</p>
+        <h3 class="business-onboard-title">Onboard application</h3>
       </article>
 
-      <article>
-        <img src="./src/images/booking.png" alt="">
-        <p>Mobile application</p>
-        <h3>Smart home dashboard</h3>
+      <article class="business-booking">
+        <img class="business-booking-img" src="./src/images/booking.png" alt="">
+        <p class="business-booking-parrafo">Mobile application</p>
+        <h3 class="business-booking-title">Booking system</h3>
       </article>
 
-      <article>
-        <img src="./src/images/juice-product.png" alt="">
-        <p>Front End applicati on</p>
-        <h3>Juice product homepage</h3>
+      <article class="business-homepage">
+        <img class="business-homepage-img" src="./src/images/juice-product.png" alt="">
+        <p class="business-homepage-parrafo">Front End applicati on</p>
+        <h3 class="business-homepage-title">Juice product homepage</h3>
       </article>
 
-      <button>see more --></button>
+      <button class="business-button">see more --></button>
     </section>
-    <section>
-      <span>Meet the team </span>
-      <h2>We are chilled and a laidback team</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
+    <section class="clients ">
       <div>
-        <img src="./src/images/person1.png" alt="">
-        <img src="./src/images/person2.png" alt="">
-        <img src="./src/images/person3.png" alt="">
+        <h5 class="clients-subtitle">Meet the team </h5>
+        <h2 class="clients-title">We are chilled and a laidback team</h2>
+        <p class="clients-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <p>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    </p>
-      <div>
-        <img src="./src/images/person4.png" alt="">
-        <h5>Carlos Tran</h5>
-        <p>The Decorate Gatsby</p>
+      <div class="clients-container">
+        <img class="clients-container-person1" src="./src/images/person1.png" alt="">
+        <img class="clients-container-person2" src="./src/images/person2.png" alt="">
+        <img class="clients-container-person3" src="./src/images/person3.png" alt="">
+      </div>
+
+      <p class="clients-subparrafo">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    </p>
+      <div class="clients-carlos">
+        <img class="clients-carlos-img" src="./src/images/person4.png" alt="">
+        <div>
+          <h5 class="clients-carlos-title">Carlos Tran</h5>
+          <p class="clients-carlos-parrafo">The Decorate Gatsby</p>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer> 
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Our Works</li>
-        <li>Clients</li>
-        <li>Contact </li>
-      </ul>
-    </nav>
-
-    <div>
-      <span>Edie</span>
-      <a href=""><img src="./src/svg/instagram.svg" alt=""></a>
-      <a href=""><img src="./src/svg/linkedin.svg" alt=""></a>
-      <a href=""><img src="./src/svg/twitter.svg" alt=""></a>
+  <footer class="footer"> 
+    <div class="footer-container">
+      <nav class="footer-navbar">
+        <ul>
+          <li><a href="#">Home</a> </li>
+          <li><a href="#">Services</a> </li>
+          <li><a href="#">Our Works</a> </li>
+          <li><a href="#">Clients</a> </li>
+          <li><a href="#">Contact </a> </li>
+        </ul>
+      </nav>
+  
+      <div class="footer-social">
+        <p class="footer-social-edie">Edie</p>
+        <a href="#"><img src="./src/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="./src/svg/linkedin.svg" alt=""></a>
+        <a href="#"><img src="./src/svg/twitter.svg" alt=""></a>
+      </div>
+  
+      <form class="footer-form" action="">
+        <label for="email">Want us to contact you?</label><br>
+        <input id="email" type="email" placeholder="Email"><button>JOIN</button>
+      </form>
+  
+      <p class="etiqueta">created by <a href="https://github.com/cristiandrc/" target="_blank" >cristiandrc</a> - devChallenge.io</p>
     </div>
-
-    <form action="">
-      <label for="email">Want us to contact you?</label><br>
-      <input id="email" type="email"><button>JOIN</button>
-    </form>
-    <span>created by <a href="https://github.com/cristiandrc/Error404#overview" target="_blank" >cristiandrc</a> - devChallenge.io</span>
   </footer>
   
 </body>

@@ -1,0 +1,50 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1050px;
+    &-design, &-frontend, &-backend {
+        width: 341px;
+        height: 422px;
+        margin: 40px 0;
+        padding: 50px 30px 30px;
+        border-radius: 20px; 
+        transition-property: box-shadow;
+        transition-duration: .5s;
+        &-img {
+            width: 67px;
+        }
+        &-title {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+        &-parrafo {
+            font-size: 1.6rem;
+            margin-bottom: 40px;
+        }
+        &-button {
+            width: 116px;
+            height: 42px;
+            font-size: 1.6rem;
+            border-radius: 10px;
+            border: none;
+            color: #828282;
+            background-color: #e0e0e0;
+            transition-property: background-color, color;
+            transition-duration: .5s;
+        }
+
+        &:hover {
+            box-shadow: 0 0 30px #c5c5c5;
+            
+        }
+
+        &:hover > &-button{
+            color: white;
+            background-color: #2d9cdb;
+        }
+    }
+
+    
+}

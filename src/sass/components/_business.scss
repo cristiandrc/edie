@@ -1,0 +1,40 @@
+.business {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-title {
+        margin-bottom: 50px;
+        width: 275px;
+    }
+
+    &-home, &-onboard, &-booking, &-homepage {
+        &-img {
+            width: 100%;
+            max-width: 405px;
+            border-radius: 20px;
+            margin: 0 5px;
+        }
+
+        &-parrafo {
+            font-size: 1.2rem;
+            color: #828282;
+            margin-top: 10px;
+        }
+        &-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-button {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #2d9cdb;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: left;
+    }
+}
