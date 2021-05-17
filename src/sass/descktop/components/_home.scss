@@ -1,0 +1,43 @@
+main {
+    max-width: 1400px;
+}
+
+.home {
+
+    &-question {
+        font-size: 1.8rem;
+        margin-left: 200px;
+    }
+
+    &-title {
+        font-size: 4.8rem;
+        width: 545px;
+        margin-left: 200px;
+    }
+
+    &-subtitle {
+        font-size: 4.8rem;
+        width: 366px;
+        margin-left: 200px;
+
+    }
+
+    &-parrafo {
+        font-size: 1.8rem;
+        width: 366px;
+        margin-left: 200px;
+    }
+
+    &-form {
+        margin-left: 200px;
+        width: 350px;
+        label {
+            font-size: 1.4rem;
+        }
+
+        input {
+            width: 350px;
+
+        }
+    }
+}

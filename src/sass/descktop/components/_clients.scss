@@ -1,0 +1,37 @@
+.clients {
+    max-width: 1100px;
+    margin: 0 auto 100px;
+    
+    &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-container {
+
+        grid-template-columns: repeat(2, 290px);
+        grid-template-rows: repeat(4, 140px);
+
+        &-person1 {
+            width: 260px;
+        }
+        &-person2 {
+            width: 290px;
+        }
+
+        &-person3 {
+            width: 290px;
+        }
+    }
+
+    &-subparrafo {
+        font-size: 3.6rem;
+        max-width: 800px;
+        align-self: start;
+        margin-right: auto;
+    }
+    &-carlos {
+        margin-right: auto;
+    }
+}

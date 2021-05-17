@@ -1,0 +1,196 @@
+.header-container {
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-menu {
+  display: initial;
+}
+
+.header-menu ul {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-menu ul a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: black;
+}
+
+.burger {
+  display: none;
+}
+
+main {
+  max-width: 1400px;
+}
+
+.home-question {
+  font-size: 1.8rem;
+  margin-left: 200px;
+}
+
+.home-title {
+  font-size: 4.8rem;
+  width: 545px;
+  margin-left: 200px;
+}
+
+.home-subtitle {
+  font-size: 4.8rem;
+  width: 366px;
+  margin-left: 200px;
+}
+
+.home-parrafo {
+  font-size: 1.8rem;
+  width: 366px;
+  margin-left: 200px;
+}
+
+.home-form {
+  margin-left: 200px;
+  width: 350px;
+}
+
+.home-form label {
+  font-size: 1.4rem;
+}
+
+.home-form input {
+  width: 350px;
+}
+
+.services {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.services-title {
+  font-size: 3.6rem;
+  margin-left: 100px;
+}
+
+.business {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (545px)[2];
+      grid-template-columns: repeat(2, 545px);
+  -ms-grid-rows: 100px 635px 100px 635px;
+      grid-template-rows: 100px 635px 100px 635px;
+}
+
+.business-title {
+  font-size: 3.6rem;
+  width: 460px;
+  margin-left: 100px;
+}
+
+.business-home, .business-onboard, .business-booking, .business-homepage {
+  width: 545px;
+}
+
+.business-home-img, .business-onboard-img, .business-booking-img, .business-homepage-img {
+  max-width: 535px;
+}
+
+.business-home {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.business-onboard {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.business-booking {
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+.business-homepage {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+.business-button {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  width: 150px;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.clients {
+  max-width: 1100px;
+  margin: 0 auto 100px;
+}
+
+.clients-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients-container {
+  -ms-grid-columns: (290px)[2];
+      grid-template-columns: repeat(2, 290px);
+  -ms-grid-rows: (140px)[4];
+      grid-template-rows: repeat(4, 140px);
+}
+
+.clients-container-person1 {
+  width: 260px;
+}
+
+.clients-container-person2 {
+  width: 290px;
+}
+
+.clients-container-person3 {
+  width: 290px;
+}
+
+.clients-subparrafo {
+  font-size: 3.6rem;
+  max-width: 800px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-right: auto;
+}
+
+.clients-carlos {
+  margin-right: auto;
+}
+/*# sourceMappingURL=descktopStyle.css.map */

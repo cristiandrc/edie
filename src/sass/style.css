@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -21,6 +22,14 @@ main h2 {
   font-weight: 500;
   margin-left: 30px;
   width: 325px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 img {
@@ -153,7 +162,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 1050px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .services-design, .services-frontend, .services-backend {
@@ -193,6 +203,7 @@ img {
   border: none;
   color: #828282;
   background-color: #e0e0e0;
+  cursor: pointer;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
   -webkit-transition-duration: .5s;
@@ -215,9 +226,8 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .business-title {
@@ -253,6 +263,7 @@ img {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
+  cursor: pointer;
 }
 
 .clients {
@@ -262,9 +273,8 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .clients-subtitle {
@@ -376,7 +386,7 @@ img {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  max-width: 1050px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 

@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/sass/style.css">
+  <link rel="stylesheet" href="./src/sass/descktop/descktopStyle.css" media="(min-width: 1100px)">
   <title>Edie</title>
 </head>
 <body>
@@ -17,10 +18,10 @@
       <nav class="header-menu">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Our Works</a></li>
-          <li><a href="">Clients</a></li>
-          <li><a href="">Contact </a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact </a></li>
         </ul>
       </nav>
       <button id="btn_menu" class="burger">
@@ -46,7 +47,7 @@
       </form>
     </section>
     
-    <h2>We offer high demand services  </h2>
+    <h2 class="services-title" id="services">We offer high demand services  </h2>
     <section class="services">
 
       <article class="services-design">
@@ -72,8 +73,8 @@
 
     </section>
 
-    <h2 class="business-title">Good design means good business</h2>
-    <section class="business">
+    <h2 id="work" class="business-title">Good design means good business</h2>
+    <section  class="business">
 
       <article class="business-home">
         <img class="business-home-img" src="./src/images/smarthome.jpg" alt="">
@@ -102,13 +103,13 @@
       <button class="business-button">see more --></button>
     </section>
       
-    <section class="clients ">
-      <div>
+    <section id="clients" class="clients ">
+      <div class="clients-text">
         <h5 class="clients-subtitle">Meet the team </h5>
         <h2 class="clients-title">We are chilled and a laidback team</h2>
         <p class="clients-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="clients-container">
+      <div class="clients-container"> 
         <img class="clients-container-person1" src="./src/images/person1.png" alt="">
         <img class="clients-container-person2" src="./src/images/person2.png" alt="">
         <img class="clients-container-person3" src="./src/images/person3.png" alt="">
@@ -125,15 +126,15 @@
     </section>
   </main>
 
-  <footer class="footer"> 
+  <footer id="contact" class="footer"> 
     <div class="footer-container">
       <nav class="footer-navbar">
         <ul>
-          <li><a href="#">Home</a> </li>
-          <li><a href="#">Services</a> </li>
-          <li><a href="#">Our Works</a> </li>
-          <li><a href="#">Clients</a> </li>
-          <li><a href="#">Contact </a> </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact </a></li>
         </ul>
       </nav>
   
@@ -152,6 +153,6 @@
       <p class="etiqueta">created by <a href="https://github.com/cristiandrc/" target="_blank" >cristiandrc</a> - devChallenge.io</p>
     </div>
   </footer>
-  
+  <script src="./src/index.js"></script>
 </body>
 </html>

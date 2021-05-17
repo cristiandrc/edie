@@ -1,7 +1,7 @@
 .business {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     &-title {
         margin-bottom: 50px;
         width: 275px;
@@ -36,5 +36,6 @@
         margin-bottom: 30px;
         width: 100%;
         text-align: left;
+        cursor: pointer;
     }
 }
