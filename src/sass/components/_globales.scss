@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 
 main {
   padding: 40px 10px 0;
@@ -42,9 +46,13 @@ img {
 @mixin burger_icon {
   position: absolute;
   width: 30px;
+  height: 4px;
   border-radius: 5px;
-  border: 2px solid black;
+  background-color: black;
+  // border: 2px solid black;
   right: 1px;
+  transition-property: opacity top bottom transform;
+  transition-duration: 1s;
 }
 
 
